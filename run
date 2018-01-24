@@ -1,0 +1,12 @@
+#! /bin/bash
+
+clear
+cd "$(pwd)"
+
+filename=$1
+name=${filename//\.java/}
+
+javac $filename
+java $name
+
+rm "$name.class"
