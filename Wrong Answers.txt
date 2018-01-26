@@ -1,2 +1,10 @@
+Cracking the Coding Interview
+==============================
 1- _1_1_IsUnique: Space: O(N) => Space: O(1) Because 128 is a constant number and the string can be more than 128 (number of characters in ASCII).
 2- _1_2_CheckPermutation: The answer of the solution for the sorting method is more modeler and shorter the my method.
+
+
+========================================================================================================================================================
+LeetCode
+=========
+1- _461_HammingDistance: You can use Integer.bitCount(x ^ y) to get the solution in one line.
