@@ -15,6 +15,7 @@ import java.util.*;
 public class _1_5_OneWay {
 
     /*
+        Note: You can use the index of the strings instead of making new booleans.
         Time: O(N)
         Memory: O(1)
     */
