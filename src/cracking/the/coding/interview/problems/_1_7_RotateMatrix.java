@@ -39,7 +39,7 @@ public class _1_7_RotateMatrix {
         }
     }
 
-    public static void print(int[][] matrix) {
+    public static void printMatrix(int[][] matrix) {
         for (int[] arr : matrix) {
             System.out.println(Arrays.toString(arr));
         }
@@ -59,16 +59,16 @@ public class _1_7_RotateMatrix {
 
         for (int[][] test : tests) {
             rotateMatrix(test);
-            print(test);
+            printMatrix(test);
             System.out.println("====================");
             rotateMatrix(test);
-            print(test);
+            printMatrix(test);
             System.out.println("====================");
             rotateMatrix(test);
-            print(test);
+            printMatrix(test);
             System.out.println("====================");
             rotateMatrix(test);
-            print(test);
+            printMatrix(test);
         }
     }
 }
