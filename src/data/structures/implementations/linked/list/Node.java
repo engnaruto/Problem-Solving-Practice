@@ -1,5 +1,7 @@
 package data.structures.implementations.linked.list;
 
+import java.util.Arrays;
+
 public class Node {
     public int data;
     public Node next;
@@ -10,7 +12,7 @@ public class Node {
 
     @Override
     public String toString() {
-        return "" + data;
-//        return super.toString()+"\t" + data;
+//        return "" + data;
+        return super.toString().split("\\.")[super.toString().split("\\.").length-1]+"\t" + data;
     }
 }

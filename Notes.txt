@@ -3,7 +3,14 @@ Cracking the Coding Interview
 1- _1_1_IsUnique: Space: O(N) => Space: O(1) Because 128 is a constant number and the string can be more than 128 (number of characters in ASCII).
 2- _1_2_CheckPermutation: The answer of the solution for the sorting method is more modeler and shorter the my method.
 3- _1_5_OneWay: You can use the index of the strings instead of making new booleans.
-
+4- _2_7_Intersection: The order of intersectionUsingChoppingList method is O(l1.length + l2.length) not O(max(l1.length, l2.length)) because we iterate on the two lists to get the length of them.
+5- _2_8_LoopDetection: The order of the problem will be (K (slow runner)+ (LOOP_SIZE - K) (the distance that the slow runner will take to collide with the fast runner) + K (the distance that the both runner nodes will take to reach the first node of the loop) = O(LOOP_SIZE + K) = O(N).
+6- _4_2_MinimalTree: Look at the wrong answer, Each insertion will require traversing the tree, giving a total cost of O(N log N) to the tree.
+7- _4_5_ValidateBST: Look at the wrong answer.
+8- _4_6_Successor: Look at the solution.
+9- _4_7_BuildOrder: Time: O(E + V) not O(E * V), You can build the order reversely (see the second solution in the book).
+10-_4_10_CheckSubtree: Look at the running time of the recursive algorithm.
+11-_5_1_Insertion: The book's solution is simpler
 ========================================================================================================================================================
 LeetCode
 =========

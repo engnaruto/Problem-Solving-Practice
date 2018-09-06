@@ -17,6 +17,18 @@ public class LinkedList {
         }
     }
 
+    public void add(Node node) {
+        if (head != null) {
+            Node current = head;
+            while (current.next != null) {
+                current = current.next;
+            }
+            current.next = node;
+        } else {
+            head = node;
+        }
+    }
+
     public void addToHead(int data) {
         if (head != null) {
             Node node = new Node(data);

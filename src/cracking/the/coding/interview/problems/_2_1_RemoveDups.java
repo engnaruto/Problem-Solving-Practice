@@ -3,14 +3,13 @@ package cracking.the.coding.interview.problems;
 import data.structures.implementations.linked.list.LinkedList;
 import data.structures.implementations.linked.list.Node;
 
-import java.util.HashMap;
 import java.util.HashSet;
 
 /*
-2.1
-Remove Dups: Write code to remove duplicates from an unsorted linked list.
-FOLLOW UP
-How would you solve this problem if a temporary buffer is not allowed?
+    2.1
+    Remove Dups: Write code to remove duplicates from an unsorted linked list.
+    FOLLOW UP
+    How would you solve this problem if a temporary buffer is not allowed?
 */
 public class _2_1_RemoveDups {
 
