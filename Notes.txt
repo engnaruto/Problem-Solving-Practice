@@ -11,6 +11,7 @@ Cracking the Coding Interview
 9- _4_7_BuildOrder: Time: O(E + V) not O(E * V), You can build the order reversely (see the second solution in the book).
 10-_4_10_CheckSubtree: Look at the running time of the recursive algorithm.
 11-_5_1_Insertion: The book's solution is simpler
+12-_8_14_BooleanEvaluation: I need to know another solution instead of the complicated one in the book.
 ========================================================================================================================================================
 LeetCode
 =========

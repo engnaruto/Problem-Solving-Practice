@@ -26,6 +26,7 @@ public class _1_1_IsUnique {
         return true;
     }
 
+
     /*
         Time: O(N)
         Space: O(1) Because 128 is a constant number and the string can be more than 128 (number of characters in ASCII)
@@ -43,6 +44,7 @@ public class _1_1_IsUnique {
         }
         return true;
     }
+
 
     /*
         Note: This solution assumes that all characters of the string are lowercase
@@ -63,6 +65,7 @@ public class _1_1_IsUnique {
         }
         return true;
     }
+
 
     /*
         Time: O(N^2)
@@ -85,6 +88,7 @@ public class _1_1_IsUnique {
         Time: O(NLog(N))
         Space: O(1)
     */
+
     public static boolean isUniqueWihSorting(String str) {
         char[] arr = str.toCharArray();
         Arrays.sort(arr);
@@ -97,6 +101,7 @@ public class _1_1_IsUnique {
         return true;
     }
 
+
     public static void main(String[] args) {
 
         String[] tests = {"abcdef", "abcdefa"};
@@ -108,5 +113,4 @@ public class _1_1_IsUnique {
             System.out.println(isUniqueWithBits(test));
         }
     }
-
 }

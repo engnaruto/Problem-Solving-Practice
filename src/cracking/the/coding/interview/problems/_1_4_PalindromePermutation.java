@@ -1,4 +1,5 @@
-import java.util.*;
+package cracking.the.coding.interview.problems;
+
 
 /*
     1.4
@@ -65,7 +66,7 @@ public class _1_4_PalindromePermutation {
 
     public static boolean palindromePermutationWithBits(String str) {
         int mask = createBitVector(str);
-        return (mask & (mask - 1))==0;
+        return (mask & (mask - 1)) == 0;
     }
 
 
@@ -76,7 +77,5 @@ public class _1_4_PalindromePermutation {
             System.out.println(palindromePermutation(test));
             System.out.println(palindromePermutationWithBits(test));
         }
-
-
     }
 }

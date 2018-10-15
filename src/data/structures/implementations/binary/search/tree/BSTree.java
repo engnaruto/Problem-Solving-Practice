@@ -55,7 +55,7 @@ public class BSTree {
 
         if (root.value == value) {
             node = root;
-        } else if (root.value < value) {
+        } else if (root.value > value) {
             node = search(root.left, value);
         } else {
             node = search(root.right, value);

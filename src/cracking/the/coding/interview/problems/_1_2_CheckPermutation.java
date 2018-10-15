@@ -7,6 +7,7 @@ import java.util.*;
 */
 
 public class _1_2_CheckPermutation {
+
     /*
         Time: O(N)
         Space: O(1) Because the memory used for the array is constant
@@ -36,6 +37,7 @@ public class _1_2_CheckPermutation {
         return true;
     }
 
+
     /*
         Time: O(NLogN)
         Space: O(N)
@@ -63,6 +65,7 @@ public class _1_2_CheckPermutation {
 
     }
 
+
     /*
         Note: This code is more modulerer and shorter than the above
         Time: O(NLogN)
@@ -82,6 +85,7 @@ public class _1_2_CheckPermutation {
         }
         return sort(str1).equals(sort(str2));
     }
+
 
     public static void main(String[] args) {
 

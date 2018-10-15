@@ -1,4 +1,5 @@
-import java.util.*;
+package cracking.the.coding.interview.problems;
+
 
 /*
     1.5
@@ -66,6 +67,7 @@ public class _1_5_OneWay {
         }
         return true;
     }
+
 
     public static void main(String[] args) {
 

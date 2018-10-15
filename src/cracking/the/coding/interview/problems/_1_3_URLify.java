@@ -1,4 +1,5 @@
-import java.util.*;
+package cracking.the.coding.interview.problems;
+
 
 /*
     1.3

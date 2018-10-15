@@ -3,6 +3,7 @@ package cracking.the.coding.interview.problems;
 
 import java.util.Arrays;
 
+
 /*
     8.13
     Stack of Boxes: You have a stack of n boxes, with widths w1 ' heights h1 ' and depths d1. The boxes
@@ -10,7 +11,6 @@ import java.util.Arrays;
     larger than the box above it in width, height, and depth. Implement a method to compute the
     height of the tallest possible stack. The height of a stack is the sum of the heights of each box.
 */
-
 
 public class _8_13_StackOfBoxes {
 
@@ -82,5 +82,4 @@ public class _8_13_StackOfBoxes {
 
         System.out.println(stackOfBoxes(0, new Box(Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE)));
     }
-
 }

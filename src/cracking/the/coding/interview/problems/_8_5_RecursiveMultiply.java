@@ -52,8 +52,5 @@ public class _8_5_RecursiveMultiply {
         int y = 30;
 
         System.out.println(recursiveMultiply(x, y));
-
     }
-
-
 }

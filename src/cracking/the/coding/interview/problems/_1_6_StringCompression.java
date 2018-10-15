@@ -1,4 +1,5 @@
-import java.util.*;
+package cracking.the.coding.interview.problems;
+
 
 /*
     1.6
@@ -43,6 +44,7 @@ public class _1_6_StringCompression {
         return str;
     }
 
+
     public static String stringCompressionWithStringBuilder(String str) {
 
         int count = 1;
@@ -70,6 +72,7 @@ public class _1_6_StringCompression {
         }
         return str;
     }
+
 
     public static void main(String[] args) {
         String[] tests = {

@@ -8,7 +8,6 @@ package cracking.the.coding.interview.problems;
     diagonals, not just the two that bisect the board.
 */
 
-
 public class _8_12_EightQueens {
 
     public static int n = 8;

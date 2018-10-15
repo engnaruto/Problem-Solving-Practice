@@ -3,16 +3,19 @@ package cracking.the.coding.interview.problems;
 
 import java.util.Arrays;
 
+
 /*
     8.11
     Coins: Given an infinite number of quarters (25 cents), dimes (10 cents), nickels (5 cents),
     and pennies (1 cent), write code to calculate the number of ways of representing n cents.
 */
+
 public class _8_11_Coins {
 
 
     public static int[] arr = {25, 10, 5, 1};
     public static int[][] dp = new int[1000][arr.length];
+
 
     /*
         Time: O(N * C) C: Number of coins
@@ -48,7 +51,5 @@ public class _8_11_Coins {
         }
 
         System.out.println(coins(n, 0));
-
-
     }
 }
