@@ -18,3 +18,4 @@ LeetCode
 1- _461_HammingDistance: You can use Integer.bitCount(x ^ y) to get the solution in one line.
 2- _728_SelfDividingNumbers: Time: O(NLog(R)) N: Length of the interval,  Log(R): Number of digits of longest number in the interval (Last number in the interval)
 3- _561_ArrayPartitionI: I understood this solution from this link: https://leetcode.com/problems/array-partition-i/discuss/102170/Java-Solution-Sorting.-And-rough-proof-of-algorithm, The problem can have redundant numbers.
+4- _347_TopKFrequentElements: There is a linear time solution using Bucket Sort
