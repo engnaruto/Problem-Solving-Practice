@@ -97,6 +97,39 @@ public class _2_AddTwoNumbers {
         return node;
     }
 
+    /*
+        Time: O(N) N: Number of digits in the longest number
+        Memory: O(N) N: Number of digits in the longest number
+    */
+
+    public static ListNode addTwoNumbersSimplified(ListNode l1, ListNode l2) {
+
+        int carry = 0;
+        ListNode dummy = new ListNode(0);
+        ListNode l = dummy;
+        while (l1 != null || l2 != null) {
+            if (l1 != null) {
+                carry += l1.val;
+                l1 = l1.next;
+            }
+
+            if (l2 != null) {
+                carry += l2.val;
+                l2 = l2.next;
+            }
+
+            l.next = new ListNode(carry % 10);
+            l = l.next;
+            carry /= 10;
+
+            if (l1 == null && l2 == null && carry != 0) {
+                l.next = new ListNode(1);
+                carry = 0;
+            }
+        }
+        return dummy.next;
+    }
+
     public static void main(String[] args) {
         ListNode l1 = new ListNode(5);
         l1.next = new ListNode(4);
@@ -109,6 +142,15 @@ public class _2_AddTwoNumbers {
         l2.next.next.next = new ListNode(3);
 
         ListNode l = addTwoNumbers(l1, l2);
+
+        while (l != null) {
+            System.out.print(l.val + " -> ");
+            l = l.next;
+        }
+
+        System.out.println();
+
+        l = addTwoNumbersSimplified(l1, l2);
 
         while (l != null) {
             System.out.print(l.val + " -> ");
