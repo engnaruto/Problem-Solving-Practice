@@ -43,8 +43,6 @@ package leetcode.problems;
     Therefore, sum = 495 + 491 + 40 = 1026.
 */
 
-import com.sun.source.tree.Tree;
-
 public class _129_SumRootToLeafNumbers {
 
     //  Definition for a binary tree node.
