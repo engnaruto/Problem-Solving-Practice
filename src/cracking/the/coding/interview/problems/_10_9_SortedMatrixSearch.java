@@ -37,8 +37,8 @@ public class _10_9_SortedMatrixSearch {
 
         int sx = 0;
         int sy = 0;
-        int ex = matrix.length - 1;
-        int ey = matrix[0].length - 1;
+        int ex = matrix.length;
+        int ey = matrix[0].length;
 
         int mx, my;
 
@@ -64,7 +64,7 @@ public class _10_9_SortedMatrixSearch {
                 }
             } else {
                 ex = mx;
-                ey = matrix[0].length - 1;
+                ey = matrix[0].length;
                 if (ex - sx <= 1) {
                     Point p = binarySearch(matrix[sx], target, sx, sy, ey);
 
@@ -81,15 +81,21 @@ public class _10_9_SortedMatrixSearch {
 
 
     public static void main(String[] args) {
-        int[][] matrix = {
-                {0, 2, 4, 16, 18},
-                {10, 15, 20, 22, 30},
-                {20, 27, 32, 35, 40},
-                {30, 33, 40, 44, 45},
-                {41, 44, 46, 50, 51},
-                {50, 56, 59, 60, 66}
-        };
+//        int[][] matrix = {
+//                {0, 2, 4, 16, 18},
+//                {10, 15, 20, 22, 30},
+//                {20, 27, 32, 35, 40},
+//                {30, 33, 40, 44, 45},
+//                {41, 44, 46, 50, 51},
+//                {50, 56, 59, 60, 66}
+//        };
 
-        System.out.println(sortedMatrixSearch(matrix, 20));
+        int[][] matrix = {
+
+                {-3, 10, 31, 40},
+                {10, 33, 40, 66},
+                {22, 43, 161, 70}
+        };
+        System.out.println(sortedMatrixSearch(matrix, 22));
     }
 }
